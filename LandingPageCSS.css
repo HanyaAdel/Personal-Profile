@@ -1,0 +1,53 @@
+*{
+    font-family:Montserrat, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    box-sizing: border-box;
+
+}
+header{
+    display: flex;
+
+    position: sticky;
+    top: 0;
+    background-color: white;
+
+    padding-left: 5%;
+    padding-right: 5%;
+    z-index:20;
+
+    height: 6rem;
+    
+}
+
+div#Name{
+    width: 30%;
+    font-size: 40px;
+    text-align: left;
+    font-weight: lighter;
+    padding-top: 50px;
+    
+}
+
+a:hover{
+    border-bottom: 1px solid gray;
+    font-size: 120%;
+}
+ul#NavBar{
+    height: 25px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    list-style-type:none;
+
+    width : 70%;
+    padding-top: 40px;
+    
+}
+
+#splitter{
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
